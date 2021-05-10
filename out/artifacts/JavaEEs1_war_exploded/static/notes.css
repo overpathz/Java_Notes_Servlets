@@ -1,0 +1,19 @@
+#content {
+    resize: none;
+}
+
+.no1 {
+    display: none;
+}
+
+.form {
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:40%;
+    color:black;
+    margin-top:10px;
+    font-size:1em;
+    border-radius:4px;
+}

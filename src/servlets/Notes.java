@@ -20,12 +20,12 @@ public class Notes extends HttpServlet {
 
         Database.addNote(new Note(content, username));
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/notes.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/notes.jsp");
         dispatcher.forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/notes.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/notes.jsp");
         dispatcher.forward(request, response);
     }
 }

@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ClearNotesServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Database.clearNotes();
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/notes.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/notes.jsp");
         dispatcher.forward(request, response);
     }
 

@@ -18,7 +18,7 @@ public class DeleteNote extends HttpServlet {
 
         Database.removeNote(noteID);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/notes.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/notes.jsp");
         dispatcher.forward(request, response);
     }
 

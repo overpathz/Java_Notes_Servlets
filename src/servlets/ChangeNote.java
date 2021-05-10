@@ -20,7 +20,7 @@ public class ChangeNote extends HttpServlet {
 
         Database.setNoteContent(noteContentReq);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/changenote.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/changenote.jsp");
         dispatcher.forward(request, response);
     }
 

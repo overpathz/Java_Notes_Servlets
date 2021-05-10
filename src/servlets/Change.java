@@ -28,7 +28,7 @@ public class Change extends HttpServlet {
             }
         }
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/notes.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/notes.jsp");
         dispatcher.forward(request, response);
     }
 
