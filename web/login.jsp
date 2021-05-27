@@ -4,7 +4,6 @@
     <head>
         <title>Home Page (JSP)</title>
     </head>
-    
     <body>
         <h1>JSP!</h1>
     </body>
