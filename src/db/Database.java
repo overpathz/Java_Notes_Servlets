@@ -21,7 +21,8 @@ public final class Database {
         Database.getNotes().clear();
         Note.setCount(0);
     }
-
+    
+    // TODO
     public static void removeNote(int id) {
         List<Note> notes = Database.getNotes();
         for (int i = 0; i < notes.size(); i++) {
